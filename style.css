@@ -7,6 +7,11 @@
    
 }
 
+html, body {
+    position:relative;
+    overflow-x:hidden;
+  }
+
 body {
     background-image: url(vr3fundo4.jpg) ;
     background-repeat: no-repeat;
@@ -250,7 +255,6 @@ footer .boxs:nth-child(4){
         body{
           position:relative;
           overflow-x:hidden;
-          z-index:100%;
         }
           .nav-list {
               position: absolute;
